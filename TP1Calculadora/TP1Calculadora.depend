@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1535932784 source:e:\proyectos c\tp1calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1536020513 source:d:\gonzalez\tp1calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TP1Calculadora.h"
+
+1536020591 source:d:\gonzalez\tp1calculadora\tp1calculadora.c
+
+1536021876 d:\gonzalez\tp1calculadora\tp1calculadora.h
+
+1536110001 source:c:\users\drspeedyres\downloads\programacion-i-1er-cuatri-master\tp1calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TP1Calculadora.h"
+
+1536242974 c:\users\drspeedyres\downloads\programacion-i-1er-cuatri-master\tp1calculadora\tp1calculadora.h
+
+1536243346 source:c:\users\drspeedyres\downloads\programacion-i-1er-cuatri-master\tp1calculadora\tp1calculadora.c
+
+1536243346 source:e:\proyectos c\tp1calculadora\tp1calculadora.c
+
