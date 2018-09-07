@@ -40,8 +40,8 @@ float op1=0,op2=0, operacionSuma, operacionResta, operacionMult, operacionDiv;
                 if(op2!=0){          //Valida si la opcion es distinto de 0, realiza la division
                     operacionDiv=division(op1,op2);
                 }
-                operacionFact1=fact1(op1);
-                operacionFact2=fact2(op2);
+                operacionFact1=fact(op1);
+                operacionFact2=fact(op2);
                 break;
             case 4:
                 system("cls");

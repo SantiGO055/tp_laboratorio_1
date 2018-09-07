@@ -41,16 +41,10 @@ float division(float,float);
 float multiplicacion(float, float);
 
 /*
-* \brief Calcula el factorial del primer numero mediante un bucle for
+* \brief Calcula el factorial de un numero mediante un bucle for
 * \param nro1 El numero a calcular el factorial
 * \return Devuelve el valor de la operacion factorial realizada
 */
-int fact1(int);
+int fact(int);
 
-/*
-* \brief Calcula el factorial del segundo numero mediante un bucle for
-* \param nro2 El numero a calcular el factorial
-* \return Devuelve el valor de la operacion factorial realizada
-*/
-int fact2(int);
 #endif //TP1CALCULADORA_H_INCLUDED

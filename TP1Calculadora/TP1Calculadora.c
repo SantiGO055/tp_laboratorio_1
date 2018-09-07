@@ -28,26 +28,13 @@ resultado=nro1*nro2;
 return resultado;
 }
 
-int fact1(int nro1){
+int fact(int nro){
 int i, fact=1;
-    if(nro1<0){
+    if(nro<0){
         fact=0;
     }
-        for(i=1; i<=nro1; i++){
+        for(i=1; i<=nro; i++){
                 fact=fact*i;
         }
 return fact;
 }
-
-int fact2(int nro2){
-int i, fact=1;
-    if(nro2<0){
-        fact=0;
-    }
-        for(i=1; i<=nro2; i++){
-                fact=fact*i;
-        }
-
-return fact;
-}
-
