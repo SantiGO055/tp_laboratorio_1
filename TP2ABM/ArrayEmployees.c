@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <conio.h>
 #include "ArrayEmployees.h"
-/* ********************************** TP1 ABM ********************************
+/* ********************************** TP2 ABM ********************************
 **
 **                              Gonzalez Santiago
 **
