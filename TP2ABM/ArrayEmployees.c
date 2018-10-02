@@ -4,7 +4,11 @@
 #include <ctype.h>
 #include <conio.h>
 #include "ArrayEmployees.h"
-
+/* ********************************** TP1 ABM ********************************
+**
+**                              Gonzalez Santiago
+**
+******************************************************************************/
 static int getInt(int* pBuffer){
     return scanf("%d",pBuffer);
 }

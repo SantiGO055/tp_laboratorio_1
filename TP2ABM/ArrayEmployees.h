@@ -1,6 +1,10 @@
 #ifndef ARRAYEMPLOYEES_H_INCLUDED
 #define ARRAYEMPLOYEES_H_INCLUDED
-
+/* ********************************** TP1 ABM ********************************
+**
+**                              Gonzalez Santiago
+**
+******************************************************************************/
 typedef struct{
     int id;
     char name[51];

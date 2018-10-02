@@ -5,6 +5,11 @@
 #include "ArrayEmployees.h"
 #define CANT 1000
 #define CHAR 51
+/* ********************************** TP1 ABM ********************************
+**
+**                              Gonzalez Santiago
+**
+******************************************************************************/
 int main()
 {
     int opcion,sector,flag=0,id=0,findEmployeeAux,idAux,contEmp=0,idRem,opcionOrd,opcionModif,validaNum;
