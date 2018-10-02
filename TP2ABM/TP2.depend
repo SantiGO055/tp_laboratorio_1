@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1537728339 source:d:\proyectos c\tp2\employee.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"employee.h"
+
+1537726774 d:\proyectos c\tp2\employee.h
+
+1538453010 source:d:\proyectos c\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"ArrayEmployees.h"
+
+1538424664 source:d:\proyectos c\tp2\arrayemployee.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"ArrayEmployee.h"
+
+1538422578 d:\proyectos c\tp2\arrayemployee.h
+
+1538344887 d:\proyectos c\tp2\utn.h
+
+1538447359 source:d:\proyectos c\tp2\func.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"func.h"
+
+1538447306 d:\proyectos c\tp2\func.h
+
+1538414869 source:d:\gonzalez santiago\programacionprimercuatri-master\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"func.h"
+
+1538414129 d:\gonzalez santiago\programacionprimercuatri-master\tp2\func.h
+
+1538414129 source:d:\gonzalez santiago\programacionprimercuatri-master\tp2\func.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"func.h"
+
+1538454118 source:d:\proyectos c\tp2\arrayemployees.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"ArrayEmployees.h"
+
+1538454127 d:\proyectos c\tp2\arrayemployees.h
+
