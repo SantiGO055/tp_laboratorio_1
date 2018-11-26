@@ -17,10 +17,7 @@ Employee* employee_newParametros(char* idStr,char* nombre,char* horasTrabajadasS
         employee_setNombre(e, nombre);
         employee_setHorasTrabajadas(e,horasTrabajadasStr);
         employee_setSueldo(e,sueldoStr);
-
-
     }
-
     return e;
 }
 
@@ -64,6 +61,13 @@ void employee_print(Employee* employee){
     printf("Salario : %d\n", employee->sueldo);
     printf("Horas Trabajadas : %d\n", employee->horasTrabajadas);
     printf("-----------------------------------------------------\n");
+}
+void employee_printList(LinkedList* lista){
+    Employee* eAux;
+    int i;
+    for(i=0;i<ll_len(lista);i++)
+        eAux=(Employee*)ll_get(lista, i);
+    employee_print(eAux);
 }
 int printMenu(int option){
     printf("");

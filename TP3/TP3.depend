@@ -133,3 +133,47 @@
 	<conio.h>
 	"utn.h"
 
+1542506289 source:c:\users\santi\desktop\tp3\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1542498678 c:\users\santi\desktop\tp3\linkedlist.h
+
+1542503737 c:\users\santi\desktop\tp3\employee.h
+
+1542503714 source:c:\users\santi\desktop\tp3\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"utn.h"
+
+1542498678 c:\users\santi\desktop\tp3\utn.h
+
+1542498678 source:c:\users\santi\desktop\tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"utn.h"
+
+1542498678 c:\users\santi\desktop\tp3\controller.h
+
+1542494457 source:c:\users\santi\desktop\tp3\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1542498678 source:c:\users\santi\desktop\tp3\utn.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"utn.h"
+

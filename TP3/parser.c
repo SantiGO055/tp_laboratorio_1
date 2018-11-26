@@ -25,8 +25,6 @@ int parser_EmployeeFromText(FILE* pFile , LinkedList* pArrayListEmployee)
             Employee* auxStruct=employee_newParametros(var1,var2,var3,var4);
             if(auxStruct!=NULL)
             ll_add(pArrayListEmployee,auxStruct);
-            //printf("id: %d nombre: %s horastrabajadas: %d sueldo: %d",auxStruct->id,auxStruct->nombre,
-         //          auxStruct->horasTrabajadas,auxStruct->sueldo);
             retorno=1;
         }
         else{
@@ -46,13 +44,13 @@ int parser_EmployeeFromText(FILE* pFile , LinkedList* pArrayListEmployee)
  */
 int parser_EmployeeFromBinary(FILE* pFile , LinkedList* pArrayListEmployee)
 {
+    int retorno=-1;
     do {
         Employee *employee = employee_new();
         if(fread(employee, sizeof(Employee), 1, pFile) == 1){
             ll_add(pArrayListEmployee, employee);
-            printf("%d %s %d %d\n", employee_getId(employee), employee_getNombre(employee), employee_getHorasTrabajadas(employee),
-               employee_getSueldo(employee));
+            retorno=0;
         }
     } while (!feof(pFile));
-    return 1;
+    return retorno;
 }

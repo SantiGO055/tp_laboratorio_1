@@ -26,6 +26,7 @@ int employee_setSueldo(Employee* this,char* sueldo);
 int employee_getSueldo(Employee* this);
 
 void employee_print(Employee* employee);
+void employee_printList(LinkedList* lista);
 int printMenu(int option);
 
 #endif // employee_H_INCLUDED
